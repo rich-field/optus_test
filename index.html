@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Progress Bars</title>
+ 	<link rel="stylesheet" type="text/css" href="css/main.css">
+ 	<link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css">
+ 	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+ 	<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+ 	<!-- <script type="text/javascript" src="js/progressBars.js"></script> -->
+	<script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+<h1 id="header">Progress Bars</h1>
+<div id="progress_bar_wrap">
+	<div id="progress_bar_1">
+		<div class="bar"></div>
+		<p><span class="value">0</span>%</p>
+	</div>
+	<div id="progress_bar_2">
+		<div class="bar"></div>
+		<p><span class="value">0</span>%</p>
+	</div>
+	<div id="progress_bar_3">
+		<div class="bar"></div>
+		<p><span class="value">0</span>%</p>
+	</div>
+	<div id="buttons">
+		<select name="Progress_Bars">
+			<option value="progress_bar_1">Progress Bar 1</option>
+			<option value="progress_bar_2">Progress Bar 2</option>
+			<option value="progress_bar_3">Progress Bar 3</option>
+		</select>
+		<button id="add_25" data-val="25">+25%</button>
+		<button id="remove_25" data-val="-25">-25%</button>
+		<button id="0_to_100" data-val="100">0 to 100</button>
+	</div>
+</div>
+</body>
+</html>
